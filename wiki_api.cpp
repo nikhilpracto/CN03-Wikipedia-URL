@@ -5,7 +5,7 @@ int main() {
     cout << "Enter what do you want to search" << endl;
     
     string searchData;
-    cin >> searchData;
+    getline(cin, searchData);
 
     replace(searchData.begin(), searchData.end(), ' ', '_');
 
